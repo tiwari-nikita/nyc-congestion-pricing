@@ -1,0 +1,8 @@
+estimate,beta,effect_pct,panel_days,pre_days,post_days
+Tunnels into zone vs non-Manhattan bridges (both directions),-0.04262,-4.17237,1342,735,607
+Inbound direction only,-0.04153,-4.06768,1342,735,607
+Without seasonal adjustment,-0.04752,-4.64113,1342,735,607
+Net of pre-existing trend,-0.02236,-2.21166,1342,735,607
+Year 1 (2025) only,-0.03414,-3.35606,1342,735,607
+Year 2 (2026) only,-0.05507,-5.35783,1342,735,607
+Diversion: RFK + Henry Hudson vs non-Manhattan bridges,0.00093,0.09258,1342,735,607
