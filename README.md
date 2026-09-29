@@ -3,6 +3,7 @@
 **Did tolling Manhattan below 60th Street reduce traffic?** A difference-in-differences study using MTA bridge and tunnel crossings, with permutation inference and an explicit pre-trend check.
 
 ```bash
+pip install -r requirements.txt
 python verify.py
 ```
 
@@ -68,3 +69,7 @@ Python 3.10+, `pandas`, `numpy`, `matplotlib`.
 - Tunnel users receive a credit against the zone toll, so the net price increase here is smaller than at other entry points.
 - The trend-adjusted bound assumes the late-2024 drift would have continued linearly.
 - Subway figures are descriptive, not causal.
+
+## License
+
+Code is released under the MIT License (see [LICENSE](LICENSE)). The data belongs to its original publishers and keeps its original license; see the sources above.
