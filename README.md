@@ -1,5 +1,14 @@
 # NYC Congestion Pricing: A Natural Experiment
 
+> **In plain English.** In January 2025, New York started charging drivers to enter Manhattan below 60th Street. Did it actually cut traffic? I compared the two MTA tunnels that lead straight into the charged zone with five MTA bridges that don't go near it, before and after the charge began.
+>
+> - Traffic through the tunnels fell 2–4% compared with the bridges.
+> - Drivers didn't simply switch to the routes into Manhattan that avoid the zone: traffic on those didn't change.
+> - The drop hasn't faded: about 3.4% in the first year and 5.4% in the second.
+> - To rule out a fluke, I re-ran the test pretending other bridges had been charged, or that the charge had started on other dates. None of those fake versions produced an effect as large.
+>
+> Every number here is checked by an automated test, and one command rebuilds it all from the MTA's public data. The technical version follows.
+
 **Did tolling Manhattan below 60th Street reduce traffic?** A difference-in-differences study using MTA bridge and tunnel crossings, with permutation inference and an explicit pre-trend check.
 
 ```bash
